@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.bestbuy.testcases.TC_10_PlaceOrderAndValidate">
+        <methods>
+          <include name="testDetails"/>
+          <include name="tc_09_CheckOutPageFilling"/>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_10_PlaceOrderAndValidate -->
+      <class name="com.bestbuy.testcases.TC_03_CreateAccountFunction">
+        <methods>
+          <include name="testDetails"/>
+          <include name="tc_03_validateCreatAccountFunctionality" invocation-numbers="8"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="start"/>
+          <include name="close"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_03_CreateAccountFunction -->
+      <class name="com.bestbuy.testcases.TC_09_AddProductByBrand">
+        <methods>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="tc_08_selAddItemShopByBrandMenu"/>
+          <include name="start"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_09_AddProductByBrand -->
+      <class name="com.bestbuy.testcases.TC_08_AddProductByDepartment">
+        <methods>
+          <include name="setup"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+          <include name="endReport"/>
+          <include name="tc_07_selAddItemShopByDeptMenu"/>
+          <include name="close"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_08_AddProductByDepartment -->
+      <class name="com.bestbuy.testcases.TC_05_ValidateAllMenuTitles">
+        <methods>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tc_04_CheckTitleOfAllMenu" invocation-numbers="5"/>
+          <include name="startReport"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_05_ValidateAllMenuTitles -->
+      <class name="com.bestbuy.testcases.TC_04_SignInFunction">
+        <methods>
+          <include name="testDetails"/>
+          <include name="start"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tc_03_SignInFunctionality" invocation-numbers="0 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.bestbuy.testcases.TC_04_SignInFunction -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
