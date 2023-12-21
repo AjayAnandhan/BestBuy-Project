@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-30T04:00:54 IST" name="Default suite" finished-at="2023-10-30T04:06:40 IST" duration-ms="345856">
+  <suite started-at="2023-12-21T02:15:54 IST" name="Default suite" finished-at="2023-12-21T02:16:42 IST" duration-ms="48678">
     <groups>
     </groups>
-    <test started-at="2023-10-30T04:00:54 IST" name="Default test" finished-at="2023-10-30T04:06:40 IST" duration-ms="345856">
-      <class name="com.bestbuy.testcases.TC_09_AddProductByBrand">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:00:53 IST" name="startReport" finished-at="2023-10-30T04:00:54 IST" duration-ms="1069" status="PASS">
+    <test started-at="2023-12-21T02:15:54 IST" name="Default test" finished-at="2023-12-21T02:16:42 IST" duration-ms="48678">
+      <class name="com.bestbuy.testcases.TC_01_NavigationToBestBuy">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:15:53 IST" name="startReport" finished-at="2023-12-21T02:15:54 IST" duration-ms="906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:00:54 IST" name="setup" finished-at="2023-10-30T04:00:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:15:54 IST" name="setup" finished-at="2023-12-21T02:15:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:00:54 IST" name="testDetails" finished-at="2023-10-30T04:00:54 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:15:54 IST" name="testDetails" finished-at="2023-12-21T02:15:54 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:00:55 IST" name="start" finished-at="2023-10-30T04:03:08 IST" duration-ms="133740" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:15:54 IST" name="start" finished-at="2023-12-21T02:16:32 IST" duration-ms="38056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="TC_09()[pri:9, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:03:09 IST" name="TC_09" finished-at="2023-10-30T04:06:31 IST" duration-ms="202340" status="PASS">
+        <test-method signature="TC_01_ValidateTitle()[pri:1, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:16:32 IST" name="TC_01_ValidateTitle" finished-at="2023-12-21T02:16:38 IST" duration-ms="5780" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_09 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:06:31 IST" name="close" finished-at="2023-10-30T04:06:40 IST" duration-ms="9178" status="PASS">
+        </test-method> <!-- TC_01_ValidateTitle -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:16:38 IST" name="close" finished-at="2023-12-21T02:16:42 IST" duration-ms="4642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.bestbuy.testcases.TC_09_AddProductByBrand@5a59ca5e]" started-at="2023-10-30T04:06:40 IST" name="endReport" finished-at="2023-10-30T04:06:42 IST" duration-ms="1340" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.bestbuy.testcases.TC_01_NavigationToBestBuy@71075444]" started-at="2023-12-21T02:16:43 IST" name="endReport" finished-at="2023-12-21T02:16:44 IST" duration-ms="1525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.bestbuy.testcases.TC_09_AddProductByBrand -->
+      </class> <!-- com.bestbuy.testcases.TC_01_NavigationToBestBuy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

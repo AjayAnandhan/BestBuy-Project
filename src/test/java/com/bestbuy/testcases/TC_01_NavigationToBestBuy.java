@@ -1,12 +1,10 @@
 	package com.bestbuy.testcases;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.bestbuy.base.BaseClass;
 import com.bestbuy.pages.LocationPage;
-
-import org.testng.annotations.BeforeTest;
-
 
 public class TC_01_NavigationToBestBuy extends BaseClass {
 	
@@ -19,7 +17,7 @@ public class TC_01_NavigationToBestBuy extends BaseClass {
 	}
 	
 	@Test(priority=1)
-	public void TC_01() throws Exception {
+	public void TC_01_ValidateTitle() throws Exception {
 		LocationPage lp=new LocationPage();
 		String actTitle = lp.bestBuyPageTitle();
 		String expTitle="Best Buy International: Select your Country - Best Buy";
@@ -30,4 +28,5 @@ public class TC_01_NavigationToBestBuy extends BaseClass {
 			reportStep("Validating Best Buy Page Title - Fail", "Fail", testName);
 		}
 	}
+	
 }
