@@ -18,7 +18,6 @@ public class TC_02_ValidateURLIsNotBroken extends BaseClass {
 		testAuthor = "Ajay A";
 	}
 	
-
 	@Test(priority=2)
 	public void TC_02() throws Exception {
 		LocationPage lp=new LocationPage();
